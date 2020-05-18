@@ -13,6 +13,7 @@
 		5239352D2472BCB900F0EAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5239352C2472BCB900F0EAB5 /* Assets.xcassets */; };
 		523935302472BCB900F0EAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5239352F2472BCB900F0EAB5 /* Preview Assets.xcassets */; };
 		523935332472BCB900F0EAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523935312472BCB900F0EAB5 /* LaunchScreen.storyboard */; };
+		5239353D2472C4DD00F0EAB5 /* MyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239353C2472C4DD00F0EAB5 /* MyScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5239352F2472BCB900F0EAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		523935322472BCB900F0EAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		523935342472BCB900F0EAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5239353C2472C4DD00F0EAB5 /* MyScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				523935312472BCB900F0EAB5 /* LaunchScreen.storyboard */,
 				523935342472BCB900F0EAB5 /* Info.plist */,
 				5239352E2472BCB900F0EAB5 /* Preview Content */,
+				5239353C2472C4DD00F0EAB5 /* MyScrollView.swift */,
 			);
 			path = CombinedUIViewAndSwiftUI;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				523935272472BCB800F0EAB5 /* AppDelegate.swift in Sources */,
+				5239353D2472C4DD00F0EAB5 /* MyScrollView.swift in Sources */,
 				523935292472BCB800F0EAB5 /* SceneDelegate.swift in Sources */,
 				5239352B2472BCB800F0EAB5 /* ContentView.swift in Sources */,
 			);
